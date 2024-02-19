@@ -18,10 +18,6 @@ void CompletionArray(string[] array1, string[] array2)
             array2[i] = array1[i];
             Console.Write($"“{array2[i]}”, ");
         }
-        else
-        {
-            Console.Write($"{array2[i]}");
-        }
     }
     Console.Write("]");
 }
